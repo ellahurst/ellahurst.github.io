@@ -1,0 +1,101 @@
+
+h1 {
+    color: pink; 
+    font-size: 52px;
+    text-align: center; 
+    background: rgb(116, 175, 116); 
+    animation-name: animation; 
+    animation-duration: 4s; 
+}
+
+@keyframes animation {
+    from {background-color: rgb(116, 175, 116);} 
+    to {background-color: yellow;}    
+}
+
+
+h2 {
+    color: pink;
+    text-align: center; 
+}
+
+h3 {
+    color: rgb(116, 175, 116);
+    background: pink; S
+}
+
+h4 {
+    color: pink; 
+    background: rgb(116, 175, 116);
+    font-size: 18px; 
+}
+
+h5 {
+    color: rgb(116, 175, 116);
+    background: pink; 
+    font-size: 18px; 
+}
+
+a { 
+    font-family: monospace; 
+}
+
+.coding {
+    text-align: center;
+    font-family: monospace; 
+    font-size: 36px; 
+}
+
+.center {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 50%; 
+}
+
+#image {
+    background: black; 
+    border: 200px black; 
+    padding: 12px; 
+}
+
+#border {
+    background:rgb(116, 175, 116); 
+    border: 200px;  
+    padding: 15px; 
+    margin: 15px; 
+    height: 80px;
+    width: 1055px;
+    animation-name: border;
+    animation-duration: 4s;
+}
+
+a.highlight:hover {
+    color: pink;
+    font-size: 16px; 
+}
+
+div ul {
+    font-size: 25px; 
+    color: rgb(116, 175, 116);
+}
+
+div p {
+    font-size: 27px; 
+    color: rgb(158, 101, 158);
+}
+
+
+
+
+h1.sticky {
+    position: sticky; 
+    top: 0; 
+}
+
+
+h2.absolute {
+    position: absolute; 
+    width: 95%; 
+    padding-top: .5px;
+}
