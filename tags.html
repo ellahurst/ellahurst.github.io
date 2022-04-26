@@ -1,93 +1,74 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <title>tags</title>
-</head>
-
-<style> 
-
-    h1 {color:pink; 
-       font-family:'Courier New', Courier, monospace
-    }
-
-    p { color:blue;
-    }
-
-    li { color: green;
-        background-color: pink; 
-    }
-
-    h3 { background-color: pink; 
-    }
-
-    .green { 
-        color: green; 
-    }
-
-</style>
+    <head> 
+        <title>Contact</title>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="media2.html">About Me</a> 
+            <a href="nested.html">Gallery</a>
+            <a href="tags.html">Contact</a>
+            
+            </nav>
+        <link rel="stylesheet" href="style.css">
+    </head>
 
 <body>
 
-        <h1>Ella's Baking Blog</h1>
-        <h3>By Ella Jane Hurst</h3>
-        <address>Email: ellahurst@u.boisestate.edu</address>
-        
-        
-        <p>My name is Ella, and I have a passion for cooking and baking. I would like to dedicate this page to showcasing some <i>easy</i> recipes!</p>
-        
-        
-        <p>
-            Now let's get into the recipe...
-        </p>
-        
-        <h2>Chocolate Chip Cookie Recipe</h2>
-        <h4 class="green">By: Betty Crocker</h4>
-        <!DOCTYPE html>
-        <html>
-        
-        
-        
-        
-        <p>This is defined by Betty Crocker as the, <q>Ultimate Chocolate Chip Cookies,” because it’s got everything a cookie connoisseur could possibly ask for.</q> We will take your word for it!</p>
-        
-        <p><b>Ingredients</b></p>
-        
-        <ul>
-        <li>2 1/4 cups all purpse flour</li>
-        <li>1 tsp baking soda</li>
-        <li>1/2 teaspoon salt</li>
-        <li>1 cup butter</li>
-        <li>3/4 cup granulated sugar</li>
-        <li>3/4 cup packed brown sugar</li>
-        <li>1 egg</li>
-        <li>1 tsp vanilla</li>
-        <li>2 cups semisweet chocolate chips</li>
-        <li>1 cup coarsely chipped nuts, if desired</li>
-        
-        </ul>
-        
-        <em> is emphasized, looks the same as the <i> tag
-        <p><b><em>Steps</em></b></p>
-        
-        
-        <ol>
-        <li>Heat oven to 375°F. In small bowl, mix flour, baking soda and salt; set aside.</li>
-        <li>In large bowl, beat softened butter and sugars with electric mixer on medium speed, or mix with spoon about 1 minute or until fluffy, scraping side of bowl occasionally.</li>
-        <li>Beat in egg and vanilla until smooth. Stir in flour mixture just until blended (dough will be stiff). Stir in chocolate chips and nuts.</li>
-        <li>Onto ungreased cookie sheets, drop dough by rounded tablespoonfuls 2 inches apart.</li>
-        <li>Bake 8 to 10 minutes or until light brown (centers will be soft). Cool 2 minutes; remove from cookie sheet to cooling rack. Cool completely, about 30 minutes. Store covered in airtight container.</li>
-        </ol>
-        
-        
-        
-        
-        <P> 
-            We have also included the Betty Crocker <a href="https://www.walmart.com/ip/Betty-Crocker-Baking-Mix-Chocolate-Chip-Cookie-Mix-Snack-Size-7-5-Oz-Pouch-Pack-of-9/906691695?wmlspartner=wlpa&selectedSellerId=101017809&adid=22222222222454220125&wmlspartner=wmtlabs&wl0=e&wl1=o&wl2=c&wl3=75385414697493&wl4=pla-4578984945892983&wl5=&wl6=&wl7=&wl10=Walmart&wl11=Online&wl12=906691695_10001037190&wl14=betty%20crocker%20baking%20mix&veh=sem&gclid=18a334d863d01aa8acd35521fff6e846&gclsrc=3p.ds&msclkid=18a334d863d01aa8acd35521fff6e846" target="blank">Chocolate Chip Cookie Mix</a>
-            for those of you who would rather take the easy route!
-        </P>
-        
-        <footer>Ella Hurst. All Rights Reserved
+<h1 class="titleborder">Contact</h1>
 
+<div class="container">
+    <form action="action_page.php">
+  <div>
+      <label class="h2" for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+ </div>
+
+ <div>
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+
+ <div>  
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+  </div>
+
+  <div>
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+    
+      <input type="submit" value="Submit">
+  
+    </form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>Ella Hurst. All Rights Reserved </footer>
 
 </body>

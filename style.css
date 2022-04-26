@@ -1,101 +1,81 @@
+html {
+    background-color: #ffeedb;
+}
+
+nav {
+   text-align: right;  
+   border-style: double; 
+   
+}
 
 h1 {
-    color: pink; 
-    font-size: 52px;
     text-align: center; 
-    background: rgb(116, 175, 116); 
-    animation-name: animation; 
-    animation-duration: 4s; 
+    font-family: monospace; 
+    color: #A53860; 
+    font-size: 50px; 
 }
-
-@keyframes animation {
-    from {background-color: rgb(116, 175, 116);} 
-    to {background-color: yellow;}    
-}
-
 
 h2 {
-    color: pink;
     text-align: center; 
+    font-family: monospace;
+    color: #A53860;
+    font-size: 27px; 
 }
 
-h3 {
-    color: rgb(116, 175, 116);
-    background: pink; S
+.titleborder {
+    border-style: solid; 
+    border-color: white; 
+    border-width: 10px;
 }
 
-h4 {
-    color: pink; 
-    background: rgb(116, 175, 116);
-    font-size: 18px; 
-}
-
-h5 {
-    color: rgb(116, 175, 116);
-    background: pink; 
-    font-size: 18px; 
-}
-
-a { 
-    font-family: monospace; 
-}
-
-.coding {
-    text-align: center;
-    font-family: monospace; 
-    font-size: 36px; 
+.grocery {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .center {
-    display: block; 
-    margin-left: auto; 
-    margin-right: auto; 
-    width: 50%; 
-}
-
-#image {
-    background: black; 
-    border: 200px black; 
-    padding: 12px; 
-}
-
-#border {
-    background:rgb(116, 175, 116); 
-    border: 200px;  
-    padding: 15px; 
-    margin: 15px; 
-    height: 80px;
-    width: 1055px;
-    animation-name: border;
-    animation-duration: 4s;
-}
-
-a.highlight:hover {
-    color: pink;
-    font-size: 16px; 
-}
-
-div ul {
+    text-align: center; 
     font-size: 25px; 
-    color: rgb(116, 175, 116);
 }
 
-div p {
-    font-size: 27px; 
-    color: rgb(158, 101, 158);
+.gallery {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px; 
 }
 
-
-
-
-h1.sticky {
-    position: sticky; 
-    top: 0; 
-}
-
-
-h2.absolute {
-    position: absolute; 
-    width: 95%; 
-    padding-top: .5px;
-}
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: pink;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #A53860;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
